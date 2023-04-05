@@ -1,5 +1,6 @@
 .kanashi{
     animation:3s linear infinite rotation1;
+    background-color: darkblue;
 }
 @keyframes rotation{
     0%{ transform:rotate(0);}
