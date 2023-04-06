@@ -1,8 +1,17 @@
-.kanashi{
+.top-menu-button{
+    background-color: aqua;
+    width: 2rem;
+    height: 1rem;
+    display: inline-block;
+}
+
+
+#spiningshitake{
     animation:3s linear infinite rotation;
-    background-color: darkblue;
+    display:inline-block;
+    color: red;
 }
 @keyframes rotation{
     0%{ transform:rotate(0);}
-    100%{ transform:rotate(360deg); }
+    100%{ transform:rotate(360deg);}
 }
